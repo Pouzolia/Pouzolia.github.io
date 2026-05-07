@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Secrétariat Médical à Distance — Pouzolia | Gestion RDV & Télésecrétariat</title>
+  <meta name="description" content="Secrétariat médical à distance professionnel : gestion des rendez-vous, secrétariat téléphonique, saisie de comptes-rendus médicaux. Service sécurisé pour cabinets médicaux." />
+  <meta name="keywords" content="secrétariat médical, télésecrétariat médical, secrétariat à distance, gestion rendez-vous médicaux, prise de rdv médical, télétransmission, facturation médicale, secrétaire médicale indépendante, pouzolia" />
+  <meta name="author" content="Pouzolia" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="http://pouzolia.free.fr/" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://pouzolia.free.fr/" />
+  <meta property="og:title" content="Secrétariat Médical à Distance — Pouzolia" />
+  <meta property="og:description" content="Gestion des rendez-vous, secrétariat téléphonique. Service professionnel et sécurisé." />
+  <meta property="og:locale" content="fr_FR" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Secrétariat Médical à Distance — Pouzolia" />
+  <meta name="twitter:description" content="Service de secrétariat médical à distance pour professionnels de santé" />
+  
+  <!-- Données structurées JSON-LD pour Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "Pouzolia - Secrétariat Médical à Distance",
+    "description": "Secrétariat médical à distance : gestion des rendez-vous, secrétariat téléphonique",
+    "url": "http://pouzolia.free.fr",
+    "telephone": "+33611471394",
+    "email": "pouzolia@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Les Eparres",
+      "addressCountry": "FR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "addressCountry": "FR"
+    },
+    "priceRange": "$",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday"],
+        "opens": "07:30",
+        "closes": "19:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Wednesday", "Thursday", "Friday"],
+        "opens": "07:30",
+        "closes": "18:00"
+      }
+    ],
+    "areaServed": {
+      "@type": "Country",
+      "name": "France"
+    }
+  }
+  </script>
+  
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  
+  <style>
+    /* Reset + base */
+    :root{
+      --accent:#0f766e; /* teal */
+      --accent-2:#064e3b;
+      --muted:#6b7280;
+      --bg:#f8fafc;
+      --card:#ffffff;
+      --radius:14px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:var(--bg);color:#0f172a}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    header{backdrop-filter: blur(6px);position:sticky;top:0;z-index:40;background:rgba(248,250,252,0.9)}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    
+    /* Header */
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:48px;height:48px;border-radius:10px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    nav ul{display:flex;gap:18px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+    .cta{background:var(--accent);color:white;padding:10px 14px;border-radius:10px;transition:background 0.2s}
+    .cta:hover{background:var(--accent-2);text-decoration:none}
+
+    /* Hero */
+    .hero{display:grid;grid-template-columns:1fr;gap:24px;padding:36px 0;align-items:center}
+    .hero-card{background:linear-gradient(180deg,rgba(255,255,255,0.6),rgba(255,255,255,0.4));padding:26px;border-radius:var(--radius);box-shadow:0 6px 30px rgba(2,6,23,0.06)}
+    h1{font-size:clamp(26px,4vw,36px);margin:0 0 12px;line-height:1.2}
+    p.lead{color:var(--muted);margin:0 0 18px;line-height:1.6}
+    .grid-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+    .service{background:var(--card);padding:14px;border-radius:12px;box-shadow:0 4px 18px rgba(2,6,23,0.04)}
+
+    /* Sections */
+    section{padding:28px 0}
+    h2{margin:0 0 12px;font-size:clamp(22px,3vw,28px)}
+    h3{margin:0 0 8px;font-size:18px}
+    .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .testimonial{background:var(--card);padding:16px;border-radius:12px;box-shadow:0 4px 12px rgba(2,6,23,0.04)}
+
+    /* Contact */
+    .contact{display:grid;grid-template-columns:1fr;gap:12px}
+    
+    footer{padding:26px 0;color:var(--muted);font-size:14px;border-top:1px solid #e5e7eb}
+
+    /* Responsive */
+    @media(min-width:900px){
+      .hero{grid-template-columns:1fr 420px}
+      nav ul{gap:22px}
+      .grid-3{grid-template-columns:repeat(2,1fr)}
+    }
+    @media(max-width:600px){
+      .nav{flex-direction:column;align-items:flex-start}
+      nav ul{width:100%;justify-content:center}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">       
+        <img src="./pics/logo.jpg?v=2" alt="Logo Pouzolia - Secrétariat Médical" width="84" height="64" style="border-radius:8px" onerror="this.style.display='none'">
+        <div>
+          <div style="font-weight:700">Secrétariat Médical</div>
+          <div style="font-size:13px;color:var(--muted)">À distance — Pouzolia</div>
+        </div>
+      </div>
+      <nav aria-label="Navigation principale">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact" class="cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main class="container">
+    <section class="hero">
+      <div class="hero-card">
+        <h1>Secrétariat médical à distance — sécurisé & professionnel</h1>
+        <p class="lead">Nous prenons en charge vos tâches administratives : rendez‑vous, relance patient, saisie de comptes‑rendus. Concentrez‑vous sur vos patients — on s'occupe du reste.</p>
+        <div class="grid-3">
+          <div class="service">
+            <strong>Prise de RDV</strong>
+            <div style="color:var(--muted);font-size:14px;margin-top:6px">Réservation, rappels automatiques, gestion des plages horaires.</div>
+          </div>
+          <div class="service">
+            <strong>Saisie</strong>
+            <div style="color:var(--muted);font-size:14px;margin-top:6px">Transcription rapide de mails médicaux.</div>
+          </div>
+        </div>
+        <div style="margin-top:16px;display:flex;gap:12px;flex-wrap:wrap">
+          <a href="#contact" class="cta">Demander un devis</a>
+          <a href="#services">Voir nos services</a>
+        </div>
+      </div>
+      
+      <aside style="align-self:start">
+        <div style="background:var(--card);padding:20px;border-radius:var(--radius);box-shadow:0 10px 30px rgba(2,6,23,0.06)">
+          <h3>Disponible pour votre cabinet</h3>
+          <div style="display:flex;gap:10px;align-items:center;margin-bottom:8px">
+            <div style="font-weight:700">📞 <a href="tel:+33611471394">06 11 47 13 94</a></div>
+          </div>
+          <div style="font-size:11px;color:var(--muted)"><a href="mailto:pouzolia@gmail.com">pouzolia@gmail.com</a></div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="services">
+      <h2>Nos services de secrétariat médical à distance</h2>
+      <div class="features">
+        <article class="service">
+          <h3 style="font-size:16px;margin:0 0 6px">Secrétariat téléphonique</h3>
+          <p style="color:var(--muted);margin:8px 0 0">Gestion professionnelle des appels, messages patients et orientation vers les bons interlocuteurs.</p>
+        </article>
+        <article class="service">
+          <h3 style="font-size:16px;margin:0 0 6px">Gestion des agendas</h3>
+          <p style="color:var(--muted);margin:8px 0 0">Création et optimisation de vos créneaux de rendez-vous + rappels automatiques via Callibri, Maiia et Doctolib.</p>
+        </article>
+        <article class="service">
+          <h3 style="font-size:16px;margin:0 0 6px">Remplacement & continuité</h3>
+          <p style="color:var(--muted);margin:8px 0 0">Remplacement de votre secrétaire médicale avec suivi rigoureux et accompagnement personnalisé pour assurer la continuité de service.</p>
+        </article>
+        <article class="service">
+          <h3 style="font-size:16px;margin:0 0 6px">Tarification transparente</h3>
+          <p style="color:var(--muted);margin:8px 0 0">Grilles tarifaires claires et solutions sur mesure pour optimiser vos coûts de fonctionnement tout en maintenant un service de qualité.</p>
+        </article>
+        <article class="service">
+          <h3 style="font-size:16px;margin:0 0 6px">Services à la carte</h3>
+          <p style="color:var(--muted);margin:8px 0 0">Modules personnalisés selon votre spécialité : orthodontie, kinésithérapie, médecine générale, etc.</p>
+        </article>
+      </div>
+      <p style="margin-top:18px;color:var(--muted);font-size:16px">Contactez-nous pour un devis personnalisé selon votre volume d'activité et votre spécialité médicale.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contactez notre secrétariat médical</h2>
+      <div class="contact">
+        <aside style="align-self:start;background:var(--card);padding:18px;border-radius:12px;box-shadow:0 8px 30px rgba(2,6,23,0.04)">
+          <h3>Infos pratiques</h3>
+          <p style="margin:6px 0;color:var(--muted)"><strong>Téléphone :</strong> <a href="tel:+33611471394">06 11 47 13 94</a></p>
+          <p style="margin:6px 0;color:var(--muted)"><strong>Email :</strong> <a href="mailto:pouzolia@gmail.com">pouzolia@gmail.com</a></p>
+          <p style="margin:6px 0;color:var(--muted)"><strong>Siège :</strong> Les Eparres, France</p>
+          <p style="margin:16px 0 6px;font-weight:600">Horaires :</p>
+          <p style="margin:4px 0;font-size:14px;color:var(--muted)">Lundi - Mardi : 7h30 - 12h30 et 13h30 - 19h</p>
+          <p style="margin:4px 0;font-size:14px;color:var(--muted)">Mercredi - Vendredi : 7h30 - 12h30 et 13h30 - 18h</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+      <div>© <span id="year"></span> Pouzolia — Secrétariat médical à distance | France</div>
+      <div style="font-size:12px;color:var(--muted)">
+        <a href="mailto:pouzolia@gmail.com" style="color:var(--muted)">Contact</a>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    // Année automatique dans le footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+    
+    // Chargement asynchrone des stats phpMyVisites (ne bloque pas la page)
+    setTimeout(function() {
+      try {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://st.free.fr/phpmyvisites.js';
+        script.onerror = function() {
+          console.log('phpMyVisites non disponible - continuité du site assurée');
+        };
+        document.body.appendChild(script);
+        
+        // Variables pour phpMyVisites
+        window.phpmyvisitesSite = 343107;
+        window.phpmyvisitesURL = "https://st.free.fr/phpmyvisites.php";
+      } catch(e) {
+        console.log('Erreur phpMyVisites:', e);
+      }
+    }, 2000); // Attend 2 secondes après le chargement de la page
+  </script>
+</body>
+</html>
