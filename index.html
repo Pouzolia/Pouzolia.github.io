@@ -8,11 +8,11 @@
   <meta name="keywords" content="secrétariat médical, télésecrétariat médical, secrétariat à distance, gestion rendez-vous médicaux, prise de rdv médical, télétransmission, facturation médicale, secrétaire médicale indépendante, pouzolia" />
   <meta name="author" content="Pouzolia" />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="http://pouzolia.free.fr/" />
+  <link rel="canonical" href="https://pouzolia.github.io/" />
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://pouzolia.free.fr/" />
+  <meta property="og:url" content="https://pouzolia.github.io/" />
   <meta property="og:title" content="Secrétariat Médical à Distance — Pouzolia" />
   <meta property="og:description" content="Gestion des rendez-vous, secrétariat téléphonique. Service professionnel et sécurisé." />
   <meta property="og:locale" content="fr_FR" />
@@ -29,7 +29,7 @@
     "@type": "MedicalBusiness",
     "name": "Pouzolia - Secrétariat Médical à Distance",
     "description": "Secrétariat médical à distance : gestion des rendez-vous, secrétariat téléphonique",
-    "url": "http://pouzolia.free.fr",
+    "url": "https://pouzolia.github.io",
     "telephone": "+33611471394",
     "email": "pouzolia@gmail.com",
     "address": {
@@ -63,9 +63,9 @@
   }
   </script>
   
-  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  <link rel="icon" href="favicon.ico" />
   
-  <style>
+  <link rel="stylesheet" href="style.css">
     /* Reset + base */
     :root{
       --accent:#0f766e; /* teal */
@@ -124,6 +124,7 @@
   </style>
 </head>
 <body>
+  <a href="#main" class="skip-link">Aller au contenu principal</a>
   <header>
     <div class="container nav">
       <div class="brand">       
@@ -142,12 +143,12 @@
     </div>
   </header>
   
-  <main class="container">
+  <main class="container" id="main">
     <section class="hero">
       <div class="hero-card">
         <h1>Secrétariat médical à distance — sécurisé & professionnel</h1>
         <p class="lead">Nous prenons en charge vos tâches administratives : rendez‑vous, relance patient, saisie de comptes‑rendus. Concentrez‑vous sur vos patients — on s'occupe du reste.</p>
-        <div class="grid-3">
+        <div class="grid-2">
           <div class="service">
             <strong>Prise de RDV</strong>
             <div style="color:var(--muted);font-size:14px;margin-top:6px">Réservation, rappels automatiques, gestion des plages horaires.</div>
@@ -226,28 +227,6 @@
     </div>
   </footer>
   
-  <script>
-    // Année automatique dans le footer
-    document.getElementById('year').textContent = new Date().getFullYear();
-    
-    // Chargement asynchrone des stats phpMyVisites (ne bloque pas la page)
-    setTimeout(function() {
-      try {
-        var script = document.createElement('script');
-        script.async = true;
-        script.src = 'https://st.free.fr/phpmyvisites.js';
-        script.onerror = function() {
-          console.log('phpMyVisites non disponible - continuité du site assurée');
-        };
-        document.body.appendChild(script);
-        
-        // Variables pour phpMyVisites
-        window.phpmyvisitesSite = 343107;
-        window.phpmyvisitesURL = "https://st.free.fr/phpmyvisites.php";
-      } catch(e) {
-        console.log('Erreur phpMyVisites:', e);
-      }
-    }, 2000); // Attend 2 secondes après le chargement de la page
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
