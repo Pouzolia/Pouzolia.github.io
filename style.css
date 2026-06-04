@@ -28,7 +28,7 @@ nav ul{display:flex;gap:18px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
 .cta:hover{background:var(--accent-2);text-decoration:none}
 
 /* Hero */
-.hero{display:grid;grid-template-columns:1fr;gap:24px;padding:36px 0;align-items:center}
+.hero{display:grid;grid-template-columns:1fr;gap:24px;padding:36px 0;align-items:start}
 .hero-card{background:linear-gradient(180deg,rgba(255,255,255,0.6),rgba(255,255,255,0.4));padding:26px;border-radius:var(--radius);box-shadow:0 6px 30px rgba(2,6,23,0.06)}
 h1{font-size:clamp(26px,4vw,36px);margin:0 0 12px;line-height:1.2}
 p.lead{color:var(--muted);margin:0 0 18px;line-height:1.6}
