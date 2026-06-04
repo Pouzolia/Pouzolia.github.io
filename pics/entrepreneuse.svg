@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#f8fafc"/>
+  <rect x="60" y="60" width="1080" height="680" rx="40" fill="#e2e8f0"/>
+  <text x="50%" y="45%" text-anchor="middle" fill="#334155" font-family="Inter,system-ui,sans-serif" font-size="72">Photo de l'entrepreneuse</text>
+  <text x="50%" y="58%" text-anchor="middle" fill="#6b7280" font-family="Inter,system-ui,sans-serif" font-size="36">Remplacez par votre image JPG</text>
+</svg>
