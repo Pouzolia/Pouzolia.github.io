@@ -52,7 +52,7 @@ h3{margin:0 0 8px;font-size:18px}
 .contact{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
 .portrait-card{background:var(--card);padding:16px;border-radius:18px;box-shadow:0 8px 24px rgba(2,6,23,0.06);display:flex;flex-direction:column;gap:14px}
 .portrait-card picture{border-radius:16px;overflow:hidden;display:block}
-.portrait-card img{width:100%;height:auto;max-height:520px;object-fit:contain;display:block;background:#e2e8f0}
+.portrait-card img{width:100%;height:auto;display:block;background:transparent;max-height:none}
 .portrait-card figcaption{font-size:15px;color:#334155;line-height:1.6}
 .testimonial{background:var(--card);padding:16px;border-radius:12px;box-shadow:0 4px 12px rgba(2,6,23,0.04)}
 
