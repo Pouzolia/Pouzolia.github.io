@@ -25,8 +25,8 @@ header{backdrop-filter: blur(6px);position:sticky;top:0;z-index:40;background:rg
 .nav{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .brand{display:flex;align-items:center;gap:12px;color:inherit}
 .brand:hover{text-decoration:none}
-.brand-mark{border-radius:10px;display:block}
-.brand-name{display:block;font-weight:700;font-size:18px}
+.brand-logo{border-radius:8px;display:block}
+.brand-name{display:block;font-weight:700}
 .brand-tagline{display:block;font-size:13px;color:var(--muted)}
 nav ul{display:flex;align-items:center;gap:18px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
 .cta{display:inline-block;background:var(--accent);color:white;padding:10px 14px;border-radius:10px;transition:background 0.2s}
