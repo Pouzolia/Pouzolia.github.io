@@ -5,17 +5,13 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Secrétariat médical à distance — Pouzolia</title>
   <meta name="description" content="Secrétariat médical à distance : gestion des rendez-vous, secrétariat téléphonique pour cabinets médicaux. Service professionnel externalisé." />
-  <meta name="keywords" content="secrétariat médical, télésecrétariat médical, secrétariat à distance, gestion rendez-vous médicaux, prise de rdv médical, secrétaire médicale indépendante, Pouzolia" />
   <meta name="author" content="Pouzolia" />
   <meta name="robots" content="index, follow" />
   <meta name="theme-color" content="#0f766e" />
-  <meta name="language" content="French" />
-  <meta name="revisit-after" content="7 days" />
   <meta name="msvalidate.01" content="F98C720ADDB5A69FCB330B4B679A6550" />
-  <meta name="BingSiteAuth" content="F98C720ADDB5A69FCB330B4B679A6550" />
   <link rel="canonical" href="https://pouzolia.github.io/" />
   <link rel="manifest" href="manifest.json" />
-  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%230f766e' width='192' height='192'/><text x='50%' y='50%' font-size='80' font-weight='bold' fill='white' text-anchor='middle' dominant-baseline='middle'>P</text></svg>" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
   
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z36QKDHYQW"></script>
@@ -31,12 +27,12 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://pouzolia.github.io/" />
   <meta property="og:title" content="Secrétariat médical à distance — Pouzolia" />
-  <meta property="og:description" content="Gestion des rendez-vous, secrétariat téléphonique et saisie de comptes-rendus médicaux. Service professionnel et sécurisé pour cabinets médicaux." />
+  <meta property="og:description" content="Gestion des rendez-vous et secrétariat téléphonique pour cabinets médicaux. Service professionnel, personnalisé et sécurisé." />
   <meta property="og:site_name" content="Pouzolia" />
   <meta property="og:locale" content="fr_FR" />
   <meta property="og:image" content="https://pouzolia.github.io/pics/IMG-20260517-WA0000.jpg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+  <meta property="og:image:width" content="1828" />
+  <meta property="og:image:height" content="972" />
   
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -97,7 +93,7 @@
         },
         {
           "@type": "Offer",
-          "name": "Expertise médical & confidentialité",
+          "name": "Expertise médicale & confidentialité",
           "description": "Respect rigoureux du secret médical, conformité RGPD et maniement sécurisé des données patients.",
           "areaServed": {"@type": "Country", "name": "France"},
           "availability": "https://schema.org/InStock"
@@ -164,7 +160,7 @@
   }
   </script>
   
-  <link rel="icon" href="favicon.ico" />
+  <link rel="icon" href="favicon.ico" sizes="any" />
   
   <link rel="stylesheet" href="style.css">
 </head>
@@ -172,112 +168,140 @@
   <a href="#main" class="skip-link">Aller au contenu principal</a>
   <header>
     <div class="container nav">
-      <div class="brand">       
-        <img src="./pics/logo.jpg?v=2" alt="Logo Pouzolia - Secrétariat Médical" width="84" height="64" style="border-radius:8px" onerror="this.style.display='none'">
-        <div>
-          <div style="font-weight:700">Secrétariat Médical</div>
-          <div style="font-size:13px;color:var(--muted)">À distance — Pouzolia</div>
-        </div>
-      </div>
+      <a href="./" class="brand">
+        <img src="pics/logo-mark.png" alt="" width="48" height="48" class="brand-mark">
+        <span>
+          <span class="brand-name">Pouzolia</span>
+          <span class="brand-tagline">Secrétariat médical à distance</span>
+        </span>
+      </a>
       <nav aria-label="Navigation principale">
         <ul>
           <li><a href="#services">Services</a></li>
+          <li><a href="#faq">FAQ</a></li>
           <li><a href="#contact" class="cta">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
-  
+
   <main class="container" id="main">
     <section class="hero">
       <div class="hero-card">
-        <h1>Secrétariat médical à distance — sécurisé & professionnel</h1>
+        <h1>Secrétariat médical à distance — sécurisé &amp; professionnel</h1>
         <p class="lead">Pouzolia propose un service de secrétariat médical externalisé de haute qualité. Je prends en charge l'intégralité de vos tâches administratives : prise de rendez-vous et gestion des appels téléphoniques. Concentrez-vous sur vos patients — je gère le reste.</p>
         <div class="grid-2">
           <div class="service">
             <strong>Prise de RDV</strong>
-            <div style="color:var(--muted);font-size:14px;margin-top:6px">Réservation, rappels automatiques, gestion des plages horaires.</div>
+            <p class="service-text">Réservation, rappels automatiques, gestion des plages horaires.</p>
           </div>
           <div class="service">
             <strong>Gestion des appels</strong>
-            <div style="color:var(--muted);font-size:14px;margin-top:6px">Gestion professionnelle des appels et messages patients.</div>
+            <p class="service-text">Gestion professionnelle des appels et messages patients.</p>
           </div>
         </div>
-        <div style="margin-top:16px;display:flex;gap:12px;align-items:center;justify-content:flex-start">
+        <div class="actions">
           <a href="#contact" class="cta">Demander un devis</a>
-          <a href="#services" class="cta">Voir nos services</a>
+          <a href="#services" class="cta">Voir les services</a>
         </div>
       </div>
-      
-      <aside style="align-self:start">
-        <div style="background:var(--card);padding:20px;border-radius:var(--radius);box-shadow:0 10px 30px rgba(2,6,23,0.06)">
-          <h2 style="font-size:18px">Disponible pour votre cabinet</h2>          <p style=\"font-size:14px;color:var(--muted);margin:12px 0\">Contactez Pouzolia dès aujourd'hui pour discuter de vos besoins spécifiques en secrétariat médical. Je propose des solutions flexibles et adaptées à votre volume d'activité.</p>          <div style="font-weight:700">📞 <a href="tel:+33611471394">06 11 47 13 94</a></div>
-          <div style="font-size:11px;color:var(--muted)"><a href="mailto:pouzolia@gmail.com">pouzolia@gmail.com</a></div>
+
+      <aside class="hero-aside">
+        <div class="card">
+          <h2 class="card-title">Disponible pour votre cabinet</h2>
+          <p class="card-text">Contactez-moi dès aujourd'hui pour discuter de vos besoins spécifiques en secrétariat médical. Je propose des solutions flexibles et adaptées à votre volume d'activité.</p>
+          <p class="card-phone">📞 <a href="tel:+33611471394">06 11 47 13 94</a></p>
+          <p class="card-email"><a href="mailto:pouzolia@gmail.com">pouzolia@gmail.com</a></p>
         </div>
-        <figure class="hero-photo" style="margin-top:18px">
-          <img src="./pics/IMG-20260517-WA0000.jpg" alt="Vue du bureau Pouzolia" loading="lazy">
+        <figure class="photo">
+          <img src="pics/IMG-20260517-WA0000.jpg" alt="Vue du bureau Pouzolia" width="1828" height="972" loading="lazy">
         </figure>
       </aside>
     </section>
 
     <section id="services">
-      <h2>Nos services de secrétariat médical à distance</h2>      <p style=\"color:var(--muted);margin-bottom:24px;line-height:1.8\">Pouzolia offre une solution complète de secrétariat médical externalisé pour tous les types de cabinets médicaux. Je maîtrise les outils de gestion médicale les plus utilisés en France et travaille en conformité totale avec les régulations RGPD et les normes médicales.</p>      <div class="feature-panel">
-        <figure class="feature-photo">
-          <img src="./pics/IMG-20260517-WA0000.jpg" alt="Vue du bureau Pouzolia" loading="lazy">
+      <h2>Mes services de secrétariat médical à distance</h2>
+      <p class="section-intro">Pouzolia offre une solution complète de secrétariat médical externalisé pour tous les types de cabinets médicaux. Je maîtrise les outils de gestion médicale les plus utilisés en France et travaille en conformité totale avec les régulations RGPD et les normes médicales.</p>
+      <div class="feature-panel">
+        <figure class="photo">
+          <img src="pics/IMG-20260517-WA0000.jpg" alt="Vue du bureau Pouzolia" width="1828" height="972" loading="lazy">
         </figure>
-        <div>
-        <p class="lead">Votre cabinet bénéficie d'un accompagnement personnel, avec des actions concrètes et un suivi sur mesure. Pouzolia comprend les enjeux du secteur médical et apporte une expertise en gestion administrative pour optimiser votre flux de travail quotidien.</p>
-        </div>
+        <p class="lead">Votre cabinet bénéficie d'un accompagnement personnel, avec des actions concrètes et un suivi sur mesure. Je comprends les enjeux du secteur médical et j'apporte une expertise en gestion administrative pour optimiser votre flux de travail quotidien.</p>
       </div>
       <div class="features">
         <article class="service">
-          <h3 style="font-size:16px;margin:0 0 6px">Secrétariat téléphonique</h3>
-          <p style="color:var(--muted);margin:8px 0 0">Gestion professionnelle des appels et messages patients avec orientation appropriée.</p>
+          <h3>Secrétariat téléphonique</h3>
+          <p class="service-text">Gestion professionnelle des appels et messages patients avec orientation appropriée.</p>
         </article>
         <article class="service">
-          <h3 style="font-size:16px;margin:0 0 6px">Gestion des agendas</h3>
-          <p style="color:var(--muted);margin:8px 0 0">Création et optimisation des créneaux de rendez-vous avec rappels automatiques via Callibri, Maiia et Doctolib.</p>
+          <h3>Gestion des agendas</h3>
+          <p class="service-text">Création et optimisation des créneaux de rendez-vous avec rappels automatiques via Callibri, Maiia et Doctolib.</p>
         </article>
         <article class="service">
-          <h3 style="font-size:16px;margin:0 0 6px">Expertise médical & confidentialité</h3>
-          <p style="color:var(--muted);margin:8px 0 0">Respect rigoureux du secret médical, conformité RGPD et maniement sécurisé des données patients.</p>
+          <h3>Expertise médicale &amp; confidentialité</h3>
+          <p class="service-text">Respect rigoureux du secret médical, conformité RGPD et maniement sécurisé des données patients.</p>
         </article>
         <article class="service">
-          <h3 style="font-size:16px;margin:0 0 6px">Disponibilité & flexibilité</h3>
-          <p style="color:var(--muted);margin:8px 0 0">Adaptabilité à votre volume d'activité et vos besoins spécifiques. Solution flexible et évolutive.</p>
+          <h3>Disponibilité &amp; flexibilité</h3>
+          <p class="service-text">Adaptabilité à votre volume d'activité et vos besoins spécifiques. Solution flexible et évolutive.</p>
         </article>
         <article class="service">
-          <h3 style="font-size:16px;margin:0 0 6px">Services à la carte</h3>
-          <p style="color:var(--muted);margin:8px 0 0">Modules personnalisés selon votre spécialité : orthodontie, kinésithérapie, médecine générale, etc.</p>
+          <h3>Services à la carte</h3>
+          <p class="service-text">Modules personnalisés selon votre spécialité : orthodontie, kinésithérapie, médecine générale, etc.</p>
         </article>
-      <p style="margin-top:18px;color:var(--muted);font-size:16px">Contactez-moi pour discuter de vos besoins spécifiques en secrétariat médical et trouver la meilleure solution adaptée à votre cabinet.</p>
+      </div>
+      <p class="section-outro">Contactez-moi pour discuter de vos besoins spécifiques en secrétariat médical et trouver la meilleure solution adaptée à votre cabinet.</p>
+    </section>
+
+    <section id="faq">
+      <h2>Questions fréquentes</h2>
+      <div class="faq">
+        <details>
+          <summary>Qu'est-ce que le secrétariat médical à distance ?</summary>
+          <p>Le secrétariat médical à distance est un service de gestion administrative pour cabinets médicaux, incluant la prise de rendez-vous et la gestion des appels téléphoniques, depuis un lieu externe.</p>
+        </details>
+        <details>
+          <summary>Comment fonctionne la prise de rendez-vous à distance ?</summary>
+          <p>Je gère vos agendas via les systèmes Callibri, Maiia et Doctolib, avec création de créneaux optimisés et rappels automatiques pour les patients.</p>
+        </details>
+        <details>
+          <summary>Quel est le tarif du secrétariat médical à distance ?</summary>
+          <p>Les tarifs sont transparents et personnalisés selon votre volume d'activité et votre spécialité médicale. Contactez-moi pour un devis détaillé.</p>
+        </details>
+        <details>
+          <summary>Pour quelles spécialités médicales proposez-vous vos services ?</summary>
+          <p>Je propose un service adapté à toutes les spécialités : médecine générale, orthodontie, kinésithérapie, et autres disciplines médicales.</p>
+        </details>
+        <details>
+          <summary>Comment puis-je contacter Pouzolia ?</summary>
+          <p>Vous pouvez m'appeler au 06 11 47 13 94 ou m'envoyer un email à pouzolia@gmail.com. Je suis disponible du lundi au vendredi de 7h30 à 18h (pause midi de 12h30 à 13h30).</p>
+        </details>
+      </div>
     </section>
 
     <section id="contact">
-      <h2>Contactez notre secrétariat médical</h2>
-      <div class="contact">
-        <aside style="align-self:start;background:var(--card);padding:18px;border-radius:12px;box-shadow:0 8px 30px rgba(2,6,23,0.04)">
-          <h3>Infos pratiques</h3>
-          <p style="margin:6px 0;color:var(--muted)"><strong>Téléphone :</strong> <a href="tel:+33611471394">06 11 47 13 94</a></p>
-          <p style="margin:6px 0;color:var(--muted)"><strong>Email :</strong> <a href="mailto:pouzolia@gmail.com">pouzolia@gmail.com</a></p>
-          <p style="margin:6px 0;color:var(--muted)"><strong>Siège :</strong> Les Eparres, France</p>
-          <p style="margin:16px 0 6px;font-weight:600">Horaires :</p>
-
-          <p style="margin:4px 0;font-size:14px;color:var(--muted)">Lundi - Vendredi : 7h30 - 12h30 et 13h30 - 18h</p>
-        </aside>
+      <h2>Me contacter</h2>
+      <div class="card contact-card">
+        <h3>Infos pratiques</h3>
+        <p><strong>Téléphone :</strong> <a href="tel:+33611471394">06 11 47 13 94</a></p>
+        <p><strong>Email :</strong> <a href="mailto:pouzolia@gmail.com">pouzolia@gmail.com</a></p>
+        <p><strong>Siège :</strong> Les Eparres, France</p>
+        <p class="contact-hours-title">Horaires :</p>
+        <p>Lundi - Vendredi : 7h30 - 12h30 et 13h30 - 18h</p>
       </div>
     </section>
   </main>
-  
+
   <footer>
-    <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+    <div class="container footer-inner">
       <div>© <span id="year"></span> Pouzolia — Secrétariat médical à distance | France</div>
-      <div style="font-size:12px;color:var(--muted)">
-        <a href="mailto:pouzolia@gmail.com" style="color:var(--muted)">Contact</a>
+      <div class="footer-links">
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="mailto:pouzolia@gmail.com">Contact</a>
       </div>
     </div>
   </footer>
-  
+
   <script src="script.js"></script>
 </body>
 </html>
