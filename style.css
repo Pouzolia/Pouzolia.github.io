@@ -114,8 +114,3 @@ footer{padding:26px 0;color:var(--muted);font-size:14px;border-top:1px solid #e5
   footer{padding-bottom:90px}
 }
 
-/* Avis Google */
-.reviews{margin-top:14px;padding-top:14px;border-top:1px solid #e5e7eb;display:grid;gap:6px}
-.reviews-link{font-weight:600}
-.stars{color:#f59e0b;letter-spacing:1px}
-.reviews-write{font-size:13px;color:var(--muted)}
